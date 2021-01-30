@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <link rel="icon" type="image/png" sizes="194x194" href="images/favicon.png"/>
+    <title>IT | Web Services and Cyber Security</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Amaranth' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Capriola' rel='stylesheet'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+   <link rel="stylesheet" type="text/css" href="css/main.css">
+    <script type="javascript" src="js/menubar.js"></script>
+    <script type="javascript" src="js/overlay.js"></script>
+    
+</head>
+
+    
+<body class="parallax-scrolling" id="home">
+
+    <div class="navbar">
+    <div class="logo">
+    <a href="homepage.html"><img src="images/logo.png" id="logo"></a>
+</div>
+    
+<a class="btn">
+    <span></span>
+    <span></span>
+    <span></span>
+</a>
+    
+<div class="menu">
+  <a href="#home">Home</a>
+  <a href="about-us.html">About Us</a>
+  <a href="#services">Services</a>
+  <a href="portfolio.html">Portfolio</a>
+  <a href="#contact" class="cont">Contact</a>
+</div>
+    
+</div>
+<div class="header">
+
+</div>
+<script type="text/javascript">
+
+$(".btn").on("click",function(){
+  $('.menu').toggleClass("show");
+});
+
+
+</script>
+    
+    <div class="parallax-scrolling" style="margin-top: 8%;">
+            <h1>Welcome to WCS</h1>
+        
+        <br>
+        <br>
+        <br>
+        
+        <header>
+           <div id="abt-us">
+               <p><span class="abt-us">A little about us</span> ... Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.... </p>
+           </div> 
+           
+        </header>
+
+        
+        </div>
+        
+        <!-- Services Section here -->
+    
+    <div class="services" id="services">
+        <br>
+        <br>
+        <br>
+        <br>
+        <h4><i class="fa fa-database" style="font-size:33px"></i> SERVICES</h4>
+        
+        <p class="serv">
+            Some information about services here.....
+        </p>
+        
+        <br>
+        <br>
+        
+        <div class="row1">
+          <div class="column1" id="col1" style="background-color:#aaa;">
+              <br>
+            <a href="services.html" target="_blank" class="more-info">Web Design and Development</a>
+              <br>
+              
+              <p class="wdd">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </p>
+              
+          </div>
+          <div class="column1" id="col2" style="background-color:#bbb;" >
+              <br>
+            <a href="cybersecurity.html" target="_blank" class="more-info">Cyber Security</a>
+            
+              <br>
+              
+              <p class="wdd">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </p>
+              
+          </div>
+</div>
+        
+    </div> <!-- Services Section Ends here -->
+        
+        
+        <br>
+        <br>
+        
+        <!-- Contact Section here -->
+        <div class="contact" id="contact">
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <h6><i class="fa fa-comments" style="font-size:36px"></i> CONTACT:</h6>
+            
+            <form id="contact-form" method="post" action="sendmessage.php">
+                <input name="name" type="text" class="cform" placeholder= " Your Name" required>
+                <br>
+                <br>
+                <input name="email" type="email" class="cform" placeholder=" Your Email Address" required>
+                <br>
+                <br>
+                <textarea name="message" class="cform" placeholder=" Enter your message..." rows="4" required></textarea>
+                <br>
+                <br>
+                
+                <input type="submit" class="cform" id="send" value="Send Message">
+            </form>
+            
+        </div>
+        
+    <footer>
+        <br>
+        <br>
+        <h8>Quick Links</h8>
+        
+        <div class="qlinks">
+            
+            <a href="" class="ql">About Us</a> <span class="line">|</span>
+            <a href="" class="ql" id="ql">Services</a><span class="line">|</span> 
+            <a href="" class="ql" id="ql">Portfolio</a>
+            
+            <br>
+            <br>
+            <div class="copyright">
+                <i class="fa fa-copyright"></i> WCS 2020
+            </div>
+            
+        </div>
+        
+    </footer>
+    
+</body>
+
+</html>
